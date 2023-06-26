@@ -1,0 +1,585 @@
+<style>
+.nav-section {
+  display: grid;
+  flex-direction: row;
+  height: 120px;
+  /*justify-content: space-between;*/
+}
+
+.left-section {
+  padding-top: 18px;
+  padding-bottom: 18px;
+  display: inline-block;
+  margin-left: 72px;
+  margin-right: 124px;
+}
+
+.logo-image {
+  height: 83px;
+}
+
+.middle-section {
+  display: inline-block;
+  margin-right: 120px;
+}
+
+.middle-menu {
+  padding-left: 0px;
+  padding-right: 619px;
+  padding-top: 44px;
+  padding-bottom: 44px;
+}
+
+.faq-sub,
+.product-sub,
+.company-sub {
+  display: inline-block;
+}
+
+.company-text,
+.product-text,
+.faq-text {
+  display: inline-block;
+  margin: 0;
+  color: #04063d;
+  font-family: "Avenir";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 21px;
+  cursor: pointer;
+}
+
+
+.company-text {
+  margin-right: 50px;
+}
+
+.product-text {
+  margin-right: 50px;
+}
+
+.faq-text {}
+
+.right-section {
+  margin-right: 0px;
+  display: inline-block;
+}
+
+.get-started-sub {
+  display: inline-block;
+}
+
+.get-started-button {
+  height: 48px;
+  width: 168px;
+  border-radius: 24px;
+  border: none;
+  background-color: ;
+  padding-top: 11.5px;
+  padding-bottom: 11.5px;
+  padding-left: 19px;
+  padding-right: 19px;
+  margin-top: 36px;
+  margin-bottom: 36px;
+  display: inline-block;
+  color: white;
+  background-color: #0065ff;
+  font-size: 21px;
+  right: 0px;
+}
+
+.woman {
+  right: 72px;
+  left: 700px;
+  margin-left: 310px;
+  top: 250px;
+  height: 748.44px;
+  position: absolute;
+}
+
+.vidwith {
+}
+
+.tailored-box-section {
+  display: inline-block;
+}
+
+.tailored-half {
+  display: inline-block;
+}
+
+/* .tailored-payment-outer-box {
+  width: 1431px;
+  height: 790.41px;
+  background-color: lightgreen;
+}
+
+.tailored-payment-inner-box {
+  background-color: rgb(142, 142, 238);
+} */
+
+.tailored-payment-core {
+  height: 234px;
+  width: 634px;   
+  font-weight: 850px;
+  font-size: 65px;
+  margin-left: 72px;
+  margin-right: 0px;
+  margin-top: 13px;
+  color:#04063D;
+  ;
+}
+
+.tailored-text {
+  /*display: inline-block;*/
+  font-weight: 850px;
+  margin: 0;
+}
+
+.test {
+  display: inline-block;
+}
+
+.target-text-container {
+  display: inline-block;
+}
+
+.horizon-target-text {
+  width: 520px;
+  height: 97px;
+  margin-top: 8.6px;
+  margin-bottom: 0px;
+  font-family: "Avenir";
+  font-weight: 400px;
+  font-size: 21px;
+  margin-left: 79px;
+  display: inline-block;
+  color:#697FA0;
+  ;
+}
+
+.gsh-button-container {
+  display: inline-block;
+  /*flex-direction: row;*/
+}
+
+.gsh-button {
+  margin-left: 72px;
+  margin-top: 0px;
+  margin-right: 0px;
+  display: inline-block;
+  width: 245px;
+  height: 53.28px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 20px;
+  padding-right: 20px;
+  background-color: #0065ff;
+  border: none;
+  border-radius: 50px;
+  color: white;
+  font-family: "Avenir";
+  font-style: normal;
+  font-weight: 850;
+  font-size: 21px;
+  line-height: 120%;
+}
+
+.affordable-image {
+  display: inline-block;
+  left: 780px;
+  margin-top: -20px;
+  margin-bottom: 0px;
+  position: relative;
+}
+
+.ease-image {
+  margin-top: 60px;
+  display: inline-block;
+  margin-left: 880px;
+  position: relative;
+}
+
+.bank-logos {
+  margin-left: 138.5px;
+  height: 82px;
+  width: 1400px;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+.what-we-offer1-container {
+  height: 760px;
+  display: block;
+  background-color: #f8fdff;
+}
+
+.what-we-offer1-heading {
+  display: block;
+  margin-left: 632px;
+  margin-bottom: 0px;
+}
+
+.what-we-offer2-container {
+  margin-top: 0px;
+  height: 365px;
+  margin-left: 0px;
+}
+
+.what-we-offer2-heading {
+  margin-top: 0px;
+  margin-left: 560px;
+}
+
+.text2-block {
+  width: 592px;
+  margin-right: 40px;
+  margin-left: 193px;
+  display: block;
+  margin-top: 232.32px;
+}
+
+.pos-image1 {
+  width: 407px;
+  height: 545px;
+  border-radius: 10px;
+  display: i;
+  margin-top: 55.82px;
+}
+
+.offer-grid {
+  display: flex;
+}
+
+.point-text {
+  width: 592px;
+  height: 147px;
+  font: Avenir;
+  font-weight: 500px;
+  font-size: 41px;
+  line-height: 49.2px;
+  margin: 0px;
+  display: inline-block;
+  color: #04063D;
+}
+
+.further-text1 {
+  display: inline-block;
+  width: 568px;
+  height: 96px;
+  margin-top: 24px;
+  font: Avenir;
+  font-weight: 400px;
+  font-size: 21px;
+  line-height: 31.5px;
+  color: #697FA0;
+}
+
+.underline-1 {
+  margin-top: 8px;
+}
+
+.kite-aclass {
+  height: 169.61px;
+  width: 154.88px;
+  display: inline-block;
+}
+
+.linked-kites-div {
+  height: 365px;
+  left: 72px;
+  top: 2050px;
+  border-radius: 0px;
+  margin: 0px;
+  margin-top: 100px;
+}
+
+
+.kite-a {
+  height: 100%;
+  /*width: 100%;*/
+  display: inline-block;
+}
+
+.kite-block {
+  margin-left: 120px;
+}
+
+.accept-heading {
+  height: 62px;
+  font-family: Avenir;
+  font-size: 52px;
+  font-weight: 500;
+  line-height: 62px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #04063D;
+}
+
+.accept-cont {
+  display: block;
+
+}
+
+.accept-text1 {
+  height: 64px;
+  width: 600px;
+  font-family: Avenir;
+  font-size: 21px;
+  font-weight: 400;
+  line-height: 32px;
+  margin-left: 490px;
+  color: #697FA0;
+}
+
+.pos-trio {
+  height: 422.95px;
+  width: 566.17px;
+  margin-left: 192px;
+}
+
+.fully-half {
+  display: inline-block;
+  align-self: top;
+  position: absolute;
+  margin-left: 69.83px;
+}
+
+.fully-head {
+  height: 98px;
+  width: 342px;
+  left: 827.99px;
+  margin-right: 0px;
+  font-size: 41px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  color: #04063D;
+}
+
+.bill-pay {
+  display: inline-block;
+  margin: 0px;
+}
+
+.sub1 {
+  align-items: center;
+  justify-content: center;
+  margin-top: 32px;
+}
+
+.shield {
+  float: left;
+}
+
+.bill-pay {
+  float: left;
+  margin-left: 27px;
+  color: #697FA0;
+}
+
+.sub2 {
+  margin-top: 146px;
+  align-items: center;
+  justify-content: center;
+}
+
+.sub3 {
+  margin-top: 250px;
+  align-items: center;
+  justify-content: center;
+}
+
+./*rev-boxes {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  margin-left: 94px;
+  margin-top: 40px;
+}*/
+
+.agent-reviews {
+  height: 694px;
+  background-color:blue;
+}
+.review-heading {
+  margin-left: 410px;
+  font-family: Avenir;
+  font-size: 50px;
+  font-weight: 900;
+  line-height: 60px;
+  letter-spacing: 0em;
+  text-align: left;
+  margin-bottom: 12px;
+  color: #04063D;
+}
+
+.agent-text {
+  height: 40px;
+  width: 610px;
+  left: 352px;
+  top: 72px;
+  font-family: Avenir;
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0em;
+  text-align: center;
+  margin-left: 470px;
+  margin-top: 0px;
+  color: #889099;
+}
+
+/*.EI1 {
+  height: 307px;
+  width: 398px;
+  left: 0px;
+  top: 0px;
+  border-radius: 10px;
+  padding: 40px;
+  margin-right: 60px;
+}*/
+
+.top-part {
+  display: grid;
+  grid-template-columns: 100px 222px;
+  height: 83px;
+  width: 318px;
+
+}
+.rev-pic1 {
+  height: 80px;
+  width: 80px;
+  top: 3px;
+  left: 0px;
+  border-radius: 40px;
+}
+
+.rev-text {
+  text-align: left;
+  height: 128px;
+  width: 318px;
+  left: 0px;
+  top: 99px;
+  border-radius: nullpx;
+  color: #8D8D8D;
+
+}
+
+.agent-name {
+  font-family: Avenir;
+  font-size: 40px;
+  font-weight: 500;
+  line-height: 64px;
+  letter-spacing: 0em;
+  text-align: left;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  color: #434343;
+}
+
+.page-bottom {
+  background-color: pink;
+}
+
+.question {
+  height: 32px;
+  width: 410px;
+  left: 515px;
+  top: 4885px;
+  font-family: Avenir;
+  font-size: 27px;
+  font-weight: 400;
+  line-height: 32px;
+  letter-spacing: 0em;
+  text-align: left;
+  margin-left: 600px;
+  margin-bottom: 0px;
+  color: #0047B3;
+}
+.small-text {
+  font-family: Avenir;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 19px;
+  text-align: left;
+  margin-left: 720px;
+  height: 19px;
+  width: 148px;
+  left: 6px;
+  top: px;
+  margin-top: 12px;
+  margin-bottom: 24px;
+  color: #697FA0;
+}
+
+.contact-button {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 20px;
+  padding-right: 20px;
+  background-color: #0065ff;
+  border: none;
+  border-radius: 50px;
+  color: white;
+  font-family: "Avenir";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 21px;
+  margin-left: 720px;
+}
+
+.info {
+  height: 380px;
+  top: 5127px;
+  margin-top: 100px;
+}
+
+.inner-top {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.col1,
+.col2,
+.col4,
+.faq {
+  display: grid;
+  grid-template-rows: 50px 50px 50px 50px 50px;
+  color: #0047B3;
+}
+
+.top-op,
+.faq {
+  font-family: Avenir;
+  font-size: 21px;
+  font-weight: 850;
+  line-height: 25px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.inner-bottom {
+  width: 1290px;
+  display: flex;
+  grid-template-columns: 1fr 1fr 1fr;
+  justify-content: space-between;
+  margin-left: 140px;
+  margin-top: 50px;
+}
+
+.logo2 {
+  height: 81px;
+  width: 70px;
+  left: 72px;
+  top: 268px;
+  border-radius: 0px;
+}
+
+.bottom-right-section {
+  line-height: 81px;
+  justify-content: space-between;
+}
+
+.bottom-middle-section {
+  color: #0047B3;
+}
+</style>
